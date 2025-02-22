@@ -1,72 +1,50 @@
-# Deploy Contract on Fhenix Testnet
+# Deploy Contract on Nexus Network
 
 ## Wallet
-1. Create a Metamask wallet ( Use the wallet you connected to Discord Quests)
-2. Get Faucet by typing /faucet in [Discord](https://discord.gg/fhenix-io) OR [Bridge](https://bridge.helium.fhenix.zone/) from Sepolia
+1. Prepare wallet (Wallet must have some NEX points)
+  
+   If you signed up to Nexus w Email - Import the wallet generated for you to Metamask or Rabby wallet
+   IF you signed up with wallet, then proceed to Deploy contracct
 
-## Add Fhenix Testnet to Metamask
-1- Open MetaMask in your browser and click on the Ethereum network.
 
-2- Click Add Network.
 
-3- Click Add a network manually.
-
-4- Fill out the network details form. To add a custom network, fill in the following fields:
-
-* Network Name: Fhenix Helium
-* New RPC URL: https://api.helium.fhenix.zone
-* Chain ID: 8008135
-* Currency Symbol: tFHE
-* Block Explorer URL: https://explorer.helium.fhenix.zone
 
 ## Deploy Contract using Remix (Manually)
 **1- Visit [Remix](https://remix.ethereum.org/)**
 
-**2- Create a `SimpleStorage.sol` file and paste [This](https://raw.githubusercontent.com/0xmoei/Fhenix-Network/refs/heads/main/SimpleStorage.sol) in editing menu**
+**2- Create a `storage.sol` file By clicking File explorer on the Left
 
-![image](https://github.com/user-attachments/assets/e6c8742f-83c0-4682-b548-54dc4a27b9dc)
+<img width="293" alt="image" src="https://github.com/user-attachments/assets/dca760d6-827b-4803-8829-3963c2c7b528" />
+<img width="223" alt="image" src="https://github.com/user-attachments/assets/ca2c25b0-2af7-4b35-aacb-a2cf0715dbf9" />
 
-**3- Compile your contract file using compiler version 8.26**
 
-![image](https://github.com/user-attachments/assets/3e704184-0a70-4afa-89c2-f800bbc350fc)
+**Under Contracts, click 1_Storage.sol
+
+<img width="233" alt="image" src="https://github.com/user-attachments/assets/c731ffa0-a43e-4fce-9661-332b08a66b6d" />
+
+**3- Compile your contract file (Ctrl + S)**
 
 **4- Deploy your Contract**
+
+<img width="275" alt="image" src="https://github.com/user-attachments/assets/499f80f7-f9ca-4f90-940c-d1611f0d0f0c" />
+
 * Change `Environment` to Metamask
-* Make sure your wallet is on Fhenix Testnet Network
+* <img width="509" alt="image" src="https://github.com/user-attachments/assets/24c3fce1-9e69-4a6f-ae4d-338f543aa5df" />
+
+* Make sure your wallet is on Nexus Testnet Network
 * Click on Deploy
 * After you sign wallet tx, You'll see your deployed contract address appears
 
 ![Screenshot_305](https://github.com/user-attachments/assets/e011d2be-8b01-48fc-9996-d1c188283ff6)
 
 ### Check you address here
-https://explorer.helium.fhenix.zone/
+https://explorer.nexus.xyz/
 
-## Complete Quest: Deployed Contracts
-You can Verify your deployed contracts on Discord Quests
-* **Remember: You'd better NOT click on `submit` but press `Edit` & `verify` again the quest if you want to deploy more to get more points. Once you click `submit`, the quest gets closed and you are not able to get more points**
+<img width="535" alt="image" src="https://github.com/user-attachments/assets/f9318603-fb28-4495-a1cd-42af916b01ea" />
 
-## Verify Contract (Manually)
-1. Go to the deployed Contract page in [Explorer](https://explorer.helium.fhenix.zone/)
-2. If you choose `Contract` **tab**, You see a `green tick` besides it meaning Contract ia verified automatically since it is known by the explorer
-
-![Screenshot_308](https://github.com/user-attachments/assets/f824b88e-1bb9-4986-9d63-61661af5a01e)
+<img width="124" alt="image" src="https://github.com/user-attachments/assets/d99889ae-0708-48c5-a085-1b753ff3fd2b" />
 
 
-#
 
 
-**If it's NOT verified**, You can Click `Publish & Verify` and Verify it by simply choose `Flattened source code`, Paste your `Contract code `,and Click `Publish & Verify`
-
-![Screenshot_309](https://github.com/user-attachments/assets/4496368c-a81c-41c3-8306-0a017894273a)
-
-#
-
-## Complete Quest: Contract Creation and Verification Discord
-Do not `submit` if you want to get more points. Click `Edit` ,then `Verify` again after you deployed and verified more Contracts
-![Screenshot_310](https://github.com/user-attachments/assets/2cc68e1e-d2a8-4c9d-97d6-dada35d3e058)
-
-
-#
-
-Quest 3 (Gas used per contract by other users) is easy you must transact using another address with your contract, I'll add a guide for it later. I'm sleepy
 
