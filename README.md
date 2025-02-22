@@ -29,7 +29,7 @@
 <img width="275" alt="image" src="https://github.com/user-attachments/assets/499f80f7-f9ca-4f90-940c-d1611f0d0f0c" />
 
 * Change `Environment` to Metamask
-* <img width="509" alt="image" src="https://github.com/user-attachments/assets/24c3fce1-9e69-4a6f-ae4d-338f543aa5df" />
+ <img width="509" alt="image" src="https://github.com/user-attachments/assets/24c3fce1-9e69-4a6f-ae4d-338f543aa5df" />
 
 * Make sure your wallet is on Nexus Testnet Network
 * Click on Deploy
